@@ -1,0 +1,23 @@
+/* grid */
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px;
+}
+
+.one {
+  grid-column: 1 / 4;
+}
+
+.two {
+  grid-column: 1 / 4;
+}
+
+.three {
+  grid-column: 1 / 4;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
+body {
+  font-family: Gowun Batang;
+}

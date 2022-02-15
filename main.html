@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <title>MOOOOO</title>
+    
+    <!-- html include script -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">   
+      $(document).ready( function() {
+
+      $("#header").load("header.html");  
+      $("#contents").load("contents.html"); 
+      $("#footer").load("footer.html"); 
+
+      });
+    </script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+      <div class="one" id="header" style="background-color: chartreuse;"></div>
+      <div class="two" id="contents" style="background-color: chocolate;"></div>
+      <div class="three" id="footer" style="background-color: cornflowerblue;"></div>
+    </div>
+
+</body>
+</html>
